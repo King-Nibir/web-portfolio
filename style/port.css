@@ -118,3 +118,40 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+.res-cont{
+    display: flex;
+    gap: 24px;
+}
+.exp-subtit{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.exp-des{
+    color: #757575;
+}
+.resume{
+    margin: 30px 5px;
+}
+.dwnld-cv-btn{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.foot-col{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 65px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
+}
